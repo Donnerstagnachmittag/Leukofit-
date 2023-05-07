@@ -38,7 +38,7 @@ st.set_page_config(
 # =============================================================================
 
 import pandas as pd
-
+import matplotlib.pyplot as plt
 import json
 from datetime import datetime
 
@@ -51,7 +51,7 @@ st.title ("Leukorechner")
 st.header("Welcome to Leukofit")
 
 from PIL import Image
-image = Image.open('media/Blutzellen.jpg')
+image = Image.open('media/blutzellen.jpg')
 st.image(image, caption='Leukozyten')
 
 
